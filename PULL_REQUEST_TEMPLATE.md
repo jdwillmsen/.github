@@ -1,33 +1,24 @@
-## Summary
+<!--
+Write for the reviewer: about 150 words, and keep only the sections that have
+content. No file-by-file list, restated diff, pasted prompt, logs, unticked
+checkboxes, or "Generated with" / attribution footer. Every claim must match
+the final diff. Title: `type(scope): description`, under 70 characters.
+-->
 
-<!-- What does this change and why? The diff says what; say why. -->
+## Why
 
-## Type of change
+<!-- 1–3 sentences: the problem, and why this approach. -->
 
-- [ ] `feat` — new feature
-- [ ] `fix` — bug fix
-- [ ] `chore` — maintenance / dependencies / tooling
-- [ ] `docs` — documentation only
-- [ ] `refactor` — no feature or fix
-- [ ] `test` — tests only
-- [ ] `ci` — CI/CD pipeline
-- [ ] `perf` — performance improvement
+## Needs attention
 
-## Test plan
+<!-- - `path:line` — the risky or non-obvious spot, and the feedback you want. -->
 
-<!-- How was this verified? Paste the evidence, not the intention. -->
+## Risk / rollout
 
-- [ ] Tests pass
-- [ ] Linting passes
-- [ ] Exercised against something real (describe below)
+<!-- Only if any: migrations, breaking changes, manual steps. Otherwise delete. -->
 
-## Related
+## Verified
 
-<!-- Closes #123 -->
+<!-- - `command actually run` — result. Evidence, not intention. -->
 
-## Checklist
-
-- [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/)
-- [ ] CI is green
-- [ ] No secrets, credentials or private data in the diff or its history
-- [ ] Comments in touched code explain *why*, and none are stale
+<!-- Closes #123 / KEY-123 -->
